@@ -1,1 +1,11 @@
 /* sheet for form practice section*/
+.credits {
+    position: relative;
+    text-align: center;
+    
+}
+
+.screenpic {
+    width: min(500px, 50%);
+    height: min(500px, 100%);
+}
