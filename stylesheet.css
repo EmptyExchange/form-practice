@@ -1,11 +1,26 @@
 /* sheet for form practice section*/
-.credits {
+.card-container {
     position: relative;
-    text-align: center;
+    width: 100%;
+}
+
+.card-image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.card-body {
+    position:absolute;
+    width: 100%;
+    background: black;
+    opacity: .6;
+    color: white;
+    top: 8rem;
+    font-size: 1.2em;
     
 }
 
-.screenpic {
-    width: min(500px, 50%);
-    height: min(500px, 100%);
+.card-heading {
+    position: absolute;
 }
