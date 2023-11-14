@@ -1,26 +1,21 @@
 /* sheet for form practice section*/
-.card-container {
+.picture {
+    max-width: 50%;
+    height: 100%;
+}
+
+body {
     position: relative;
-    width: 50%;
+    height: 100vh;
+    margin: 0;
 }
 
-.card-image {
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-}
+.credit-heading {
+  position: absolute;
+  width: 100%;
+  color: white;
+  left: 15rem;
+  top: 45rem; 
+  font-size: 1.2em;
 
-.card-body {
-    position:absolute;
-    width: 100%;
-    background: black;
-    opacity: .6;
-    color: white;
-    top: 8rem;
-    font-size: 1.2em;
-    
-}
-
-.card-heading {
-    position: absolute;
 }
