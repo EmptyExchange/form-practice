@@ -1,21 +1,25 @@
 /* sheet for form practice section*/
-.picture {
-    max-width: 50%;
-    height: 100%;
+.pic-left {
+  background-image: url(./images/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+  width: 80vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  position: relative;
 }
 
 body {
-    position: relative;
-    height: 100vh;
-    margin: 0;
+  margin: 0;
 }
 
-.credit-heading {
-  position: absolute;
+.credit {
+  position:absolute;
+  text-align: center; 
+  bottom: 0;
   width: 100%;
   color: white;
-  left: 15rem;
-  top: 45rem; 
-  font-size: 1.2em;
+  
 
 }
