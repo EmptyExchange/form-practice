@@ -28,5 +28,8 @@ body {
 
 p {
   text-align: center;
-
+  height: 50px;
+  width: 500px;
+  margin-left: 15%;
+  margin-top: 10%;
 }
