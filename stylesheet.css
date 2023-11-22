@@ -7,7 +7,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   text-align:center;
-  position: relative;
+  position: absolute;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
   display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
+  flex-direction: column;
   
 }
 
@@ -28,8 +29,17 @@ body {
 
 p {
   text-align: center;
-  height: 50px;
-  width: 500px;
-  margin-left: 15%;
+  height: 30%;
+  width: 30%;
+  margin-left: 50%;
   margin-top: 10%;
+}
+
+.form-section {
+  box-shadow: 0 4px 2px -2px gray;
+  height: 30%;
+  width: 30%;
+  margin-left: 50%;
+  
+  
 }
